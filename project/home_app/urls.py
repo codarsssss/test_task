@@ -1,9 +1,9 @@
 from django.urls import path
 
-from .views import index
+from .views import display_model
 
-app_name = 'home_app'
 
 urlpatterns = [
-    path('', index, name='home')
+    path('', display_model),
+    path('<int:model_pk>', display_model),
 ]
