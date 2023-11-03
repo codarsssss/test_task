@@ -6,9 +6,6 @@ class ModelA(models.Model):
     a_two = models.CharField(max_length=255, blank=True)
     a_three = models.CharField(max_length=255, blank=True)
 
-    # def __str__(self):
-    #     return self.__class__.__name__
-
 
 class ModelB(models.Model):
     b_one = models.CharField(max_length=255, blank=True)

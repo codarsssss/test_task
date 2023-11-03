@@ -1,0 +1,8 @@
+<div class="d-flex justify-content-center">
+    {% if pk  > 1 %}
+        <a href="{{ pk | add:-1 }}" class="btn">Предыдущая</a>
+    {% endif %}
+    {% if pk < max_pk %}
+        <a href="{{ pk | add:1 }}" class="btn">Следуюющая</a>
+    {% endif %}
+</div>

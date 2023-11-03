@@ -1,12 +1,11 @@
-{% extends 'home_app/base.html' %}
+{% extends 'base.html' %}
 {% load custom_tags %}
 
 
 {% block content %}
 
-    <h1>{{ model_title }}</h1>
-
     <table class="table table-dark table-striped">
+
         <tr>
             {% for field in fields %}
                 <th>{{ field.verbose_name }}</th>
@@ -20,13 +19,11 @@
                 {% endfor %}
             </tr>
         {% endfor %}
-    </table>
-    <form action="" method="post">
-    {% csrf_token %}
-    {{ form.as_table }}
-    <button type="submit">Создать поле</button>
 
-    </form>
+    </table>
+
+
+{% include 'home_app/includes/add_form.html' %}
 
 
 {% endblock %}
