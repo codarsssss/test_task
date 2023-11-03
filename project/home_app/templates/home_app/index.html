@@ -21,5 +21,12 @@
             </tr>
         {% endfor %}
     </table>
+    <form action="" method="post">
+    {% csrf_token %}
+    {{ form.as_table }}
+    <button type="submit">Создать поле</button>
+
+    </form>
+
 
 {% endblock %}
