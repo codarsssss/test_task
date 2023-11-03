@@ -1,20 +1,25 @@
 {% extends 'home_app/base.html' %}
+{% load custom_tags %}
+
+
 {% block content %}
-<h1>{{ model_title }}</h1>
-    {{ fields_and_values }}
-<table>
-    <tr>
-        <th>Поле</th>
-        <th>Значение</th>
-    </tr>
-    {% for item in fields_and_values %}
+
+    <h1>{{ model_title }}</h1>
+
+    <table class="table table-dark table-striped">
         <tr>
-            {% for field, value in item.items %}
-                <td>{{ field }}</td>
-                <td>{{ value }}</td>
+            {% for field in fields %}
+                <th>{{ field.verbose_name }}</th>
             {% endfor %}
         </tr>
-    {% endfor %}
-</table>
+
+        {% for item in model_data %}
+            <tr>
+                {% for field in fields %}
+                    <td>{{ item|get_attr:field.name }}</td>
+                {% endfor %}
+            </tr>
+        {% endfor %}
+    </table>
 
 {% endblock %}
