@@ -4,11 +4,11 @@
 
 {% block content %}
 
-    <table class="table table-dark table-striped">
+    <table class="table table-dark table-striped text-center">
 
         <tr>
             {% for field in fields %}
-                <th>{{ field.verbose_name }}</th>
+                <th class="h3">{{ field.verbose_name }}</th>
             {% endfor %}
         </tr>
 
