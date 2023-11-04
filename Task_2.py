@@ -1,10 +1,10 @@
-def print_num_gt(num):
+def print_num_gt(max_num):
     def decorator(func):
-        def wrapper(x):
-            if x > num:
-                func(x)
+        def wrapper(arg):
+            if max_num > arg:
+                print('error')
             else:
-                print("error")
+                func(arg)
         return wrapper
     return decorator
 
@@ -14,4 +14,4 @@ def print_num(x: int):
     print(x)
 
 
-print_num(4)
+print_num(5)
