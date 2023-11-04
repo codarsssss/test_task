@@ -1,0 +1,47 @@
+[
+{
+  "model": "home_app.modelc",
+  "pk": 1,
+  "fields": {
+    "c_one": "раз",
+    "c_two": "два",
+    "c_three": "три"
+  }
+},
+{
+  "model": "home_app.modelc",
+  "pk": 2,
+  "fields": {
+    "c_one": "1",
+    "c_two": "2",
+    "c_three": "3"
+  }
+},
+{
+  "model": "home_app.modelc",
+  "pk": 3,
+  "fields": {
+    "c_one": "одни",
+    "c_two": "два",
+    "c_three": "три"
+  }
+},
+{
+  "model": "home_app.modelc",
+  "pk": 4,
+  "fields": {
+    "c_one": "ван",
+    "c_two": "ту",
+    "c_three": "трес"
+  }
+},
+{
+  "model": "home_app.modelc",
+  "pk": 5,
+  "fields": {
+    "c_one": "впевукп",
+    "c_two": "пвкпвкпкупп",
+    "c_three": "пвкпяпкпкв"
+  }
+}
+]

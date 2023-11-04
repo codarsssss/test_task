@@ -1,0 +1,56 @@
+[
+{
+  "model": "home_app.modelb",
+  "pk": 1,
+  "fields": {
+    "b_one": "б ван",
+    "b_two": "б ту",
+    "b_three": "б три"
+  }
+},
+{
+  "model": "home_app.modelb",
+  "pk": 2,
+  "fields": {
+    "b_one": "три",
+    "b_two": "раз",
+    "b_three": "два"
+  }
+},
+{
+  "model": "home_app.modelb",
+  "pk": 3,
+  "fields": {
+    "b_one": "раз",
+    "b_two": "два",
+    "b_three": "три"
+  }
+},
+{
+  "model": "home_app.modelb",
+  "pk": 4,
+  "fields": {
+    "b_one": "один",
+    "b_two": "дв",
+    "b_three": "триииии"
+  }
+},
+{
+  "model": "home_app.modelb",
+  "pk": 5,
+  "fields": {
+    "b_one": "один",
+    "b_two": "дв",
+    "b_three": "триииии"
+  }
+},
+{
+  "model": "home_app.modelb",
+  "pk": 6,
+  "fields": {
+    "b_one": "1",
+    "b_two": "2",
+    "b_three": "3"
+  }
+}
+]

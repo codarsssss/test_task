@@ -1,0 +1,74 @@
+[
+{
+  "model": "home_app.modela",
+  "pk": 1,
+  "fields": {
+    "a_one": "a van",
+    "a_two": "a tu",
+    "a_three": "a tre"
+  }
+},
+{
+  "model": "home_app.modela",
+  "pk": 2,
+  "fields": {
+    "a_one": "dva",
+    "a_two": "dva dva",
+    "a_three": "dva tri"
+  }
+},
+{
+  "model": "home_app.modela",
+  "pk": 3,
+  "fields": {
+    "a_one": "раз",
+    "a_two": "два",
+    "a_three": "три"
+  }
+},
+{
+  "model": "home_app.modela",
+  "pk": 4,
+  "fields": {
+    "a_one": "раз",
+    "a_two": "два",
+    "a_three": "три"
+  }
+},
+{
+  "model": "home_app.modela",
+  "pk": 5,
+  "fields": {
+    "a_one": "раз",
+    "a_two": "два",
+    "a_three": "три"
+  }
+},
+{
+  "model": "home_app.modela",
+  "pk": 6,
+  "fields": {
+    "a_one": "один",
+    "a_two": "дв",
+    "a_three": "триииии"
+  }
+},
+{
+  "model": "home_app.modela",
+  "pk": 7,
+  "fields": {
+    "a_one": "1",
+    "a_two": "2",
+    "a_three": "3"
+  }
+},
+{
+  "model": "home_app.modela",
+  "pk": 8,
+  "fields": {
+    "a_one": "авп",
+    "a_two": "пввып",
+    "a_three": "пвпа"
+  }
+}
+]
